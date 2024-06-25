@@ -82,11 +82,7 @@ def handle_edit_task(task_manager):
 
     print("""\n-> Edit Task
 
-1. Edit Name and Description
-2. Update Folder for Task
-3. Update Priority for Task
-4. Mark Complete/Incomplete
-5. Main menu""")
+""")
     choice = input("\nEnter here: ")
 
     if choice == '1':
