@@ -82,6 +82,10 @@ def handle_edit_task(task_manager):
 
     print("""\n-> Edit Task
 
+1. Edit Name and Description
+2. Update Folder for Task
+3. Update Priority for Task
+4. Mark Complete/Incomplete
 """)
     choice = input("\nEnter here: ")
 
@@ -185,7 +189,7 @@ Enter no value to list all Tasks that have been assigned to a Folder.""")
 
 def handle_delete_task_folder(task_manager):
 
-    print("""\n-> Delete Task folder(s)
+    print("""\n-> Delete Task folder
 
 Deletes all tasks from a specified Task Folder.""")
 
@@ -195,7 +199,7 @@ Deletes all tasks from a specified Task Folder.""")
     elif select == 'n':
         return
 
-    print("\nFolder(s) successfully deleted!")
+    print("\nFolder successfully deleted!")
     print("*")
 
 
@@ -218,7 +222,7 @@ def main():
 2. Create Task
 3. Edit Task
 4. Delete Task
-5. View Task Folder(s)
+5. View Task Folder
 6. Delete Task Folder
 7. Exit App
 
